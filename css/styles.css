@@ -1,0 +1,98 @@
+header, nav, main, footer { 
+	display: block; 
+}
+
+body { 
+	background-image: url(../images/home_pic_view.jpg);
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper { 
+	width: 960px;
+    margin: auto;
+	background-color: #f7efd8;
+	color: #fec327;
+	box-shadow: 0 0 20px 10px #000000;
+	border-radius: 0px;
+}
+
+h1 { 
+	background-image: url(../images/cheese_logo.jpg);
+	background-size: 200px 155px;
+	background-repeat: no-repeat;
+    background-color: #330000;
+	height: 110px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 4.5em;
+    padding-left: 220px;
+	padding-top: 45px;
+	text-shadow: 3px 3px 3px #90745D;
+	margin-bottom: 0;
+}
+
+img{
+	float: right;
+}
+
+nav {
+	padding: 10px 0px;
+	
+}
+
+
+nav ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+nav li {
+	font-weight: bold;
+	padding: 0;
+}
+
+nav a { 
+	text-decoration: none; 
+}
+
+nav a:link { 
+	color: #fec327;
+}
+
+nav a:visited{ 
+	color: #36454f; 
+}
+
+nav a:hover { 
+	color: #fec327;
+}
+
+main { 
+	background-color: #000000;
+	padding: 20px 20px 20px 20px;   
+	min-height: 300px;
+}
+
+footer { 
+	background-color: #330000;
+	padding: 20px;
+	text-align: center;
+	font-size: small;
+	font-style: italic;
+}
+
+footer a:link { 
+	color: #fec327;
+}
+
+footer a:visited{ 
+	color: #36454f; 
+}
+
+footer a:hover { 
+	color: #36454f;
+}
+	  
