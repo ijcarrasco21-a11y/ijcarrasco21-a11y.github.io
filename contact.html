@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cheesy.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<h1 class="site-title">CheesyStays</h1>
+	</header>
+	<nav>
+	<ul> 
+		<li><a href="index.html">Home</a></li>
+		<li><a href="rooms/city_view_room.html">2 Bed Room</a></li>
+		<li><a href="rooms/smaller_city_view_room.html">1 Bed Room</a></li>
+		<li><a href="events/cheesyevents.html">Weekend Events</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+	</nav>
+	<main>
+	<h3>Information </h3>
+	<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+		<label for="fullname">First & last Name</label>
+		<input type="text" id="fullname" name="fullname" placeholder="Enter First & Last name? ">
+		<label for="Email">Email</label>
+		<input type="text" id="Email" name="email" placeholder="Enter your Email? ">
+		<label for="Phone">Number</label>
+		<input type="text" id="Phone" name="Phone" placeholder="Enter your Number? ">
+		<label for="dob">Date of Birth</label>
+		<input type="date" id="dob" name="dob" required>
+		<fieldset>
+		<legend>Room Preference</legend>
+		<label>
+			<input type="radio" name="room" value="1-bedroom" required>
+			1 Bedroom
+		</label>
+		<label>
+		<input type="radio" name="room" value="2-bedroom">
+    2 Bedroom
+  </label>
+</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+	<section class="map-section">
+	<h2>Find Us Here</h2>
+  
+<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.471636733571!2d114.17202081074048!3d22.297995942894524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ee10aa56f3%3A0x329d1a38189cfad0!2s8A%20Hart%20Ave%2C%20Tsim%20Sha%20Tsui%2C%20Hong%20Kong!5e0!3m2!1sen!2sus!4v1765823221438!5m2!1sen!2sus" 
+		width="100" 
+		height="450" 
+		style="border:0;" 
+		allowfullscreen="" 
+		loading="lazy" 
+		referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+  
+		<p>Come visit us in the great Hong Kong!!</p>
+	</section>
+	</main>
+	<footer>
+		Copyright &copy; 2024 WebMaster
+	<script>
+  document.querySelector("form").addEventListener("submit", function () {
+    alert("Thank you! Your request has been submitted.");
+  });
+  </script>
+  </footer>
+</div>
+</body>
+</html>
